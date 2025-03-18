@@ -1,3 +1,0 @@
-root: pkg.gfire.dev/controlplane
-vcs: git
-url: https://github.com/gfire-sigs/fire-controlplane.git
