@@ -5,7 +5,7 @@
 package views
 
 //line views/index.qtpl:1
-import "github.com/lemon-mint/gopkg.eu.org/types"
+import "github.com/gfire-sigs/pkg.gfire.dev/types"
 
 //line views/index.qtpl:3
 import (
@@ -29,7 +29,7 @@ func StreamIndex(qw422016 *qt422016.Writer, Modules []*Module) {
 	qw422016.N().S(`<!DOCTYPE html>
 `)
 //line views/index.qtpl:8
-	qw422016.N().S(`<html lang="en"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>gopkg.eu.org Module Index</title><meta name="og:title" content="gopkg.eu.org Module Index"><meta name="og:description" content="A Module index for Go Modules hosted on gopkg.eu.org"><meta name="description" content="A Module index for Go Modules hosted on gopkg.eu.org"><link rel="stylesheet" href="/_static/main.css"></head><body><h1>gopkg.eu.org Module Index</h1><span class="description">A Module index for Go Modules hosted on gopkg.eu.org</span><span class="description">Index Repository: <a href="https://github.com/lemon-mint/gopkg.eu.org">https://github.com/lemon-mint/gopkg.eu.org</a></span><br/><div class="box"><ul>`)
+	qw422016.N().S(`<html lang="en"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>pkg.gfire.dev Module Index</title><meta name="og:title" content="pkg.gfire.dev Module Index"><meta name="og:description" content="A Module index for Go Modules hosted on pkg.gfire.dev"><meta name="description" content="A Module index for Go Modules hosted on pkg.gfire.dev"><link rel="stylesheet" href="/_static/main.css"></head><body><h1>pkg.gfire.dev Module Index</h1><span class="description">A Module index for Go Modules hosted on pkg.gfire.dev</span><span class="description">Index Repository: <a href="https://github.com/gfire-sigs/pkg.gfire.dev">https://github.com/gfire-sigs/pkg.gfire.dev</a></span><br/><div class="box"><ul>`)
 //line views/index.qtpl:27
 	for _, p := range Modules {
 //line views/index.qtpl:27

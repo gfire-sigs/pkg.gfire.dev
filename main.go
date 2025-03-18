@@ -12,8 +12,8 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/lemon-mint/gopkg.eu.org/types"
-	"github.com/lemon-mint/gopkg.eu.org/views"
+	"github.com/gfire-sigs/pkg.gfire.dev/types"
+	"github.com/gfire-sigs/pkg.gfire.dev/views"
 	"github.com/otiai10/copy"
 )
 
@@ -30,7 +30,7 @@ func parseSource(m *Module) error {
 
 	// This is a comment
 	# This is also a comment
-	root: gopkg.eu.org/example
+	root: pkg.gfire.dev/example
 	vcs: git
 	url: https://example.com/jane/example.git
 	description: Example Module providing a root access to the hello world example.

@@ -1,6 +1,6 @@
-# gopkg.eu.org Module Index
+# pkg.gfire.dev Module Index
 
-Go modules hosted on gopkg.eu.org
+Go modules hosted on pkg.gfire.dev
 
 ## Add a module
 
@@ -8,13 +8,13 @@ To add a module to the index, fork this repository, pick a unique name for your 
 
 ```yaml
 # full module name
-root: gopkg.eu.org/broccoli
+root: pkg.gfire.dev/controlplane
 # the VCS used to fetch the module (default: git)
 vcs: git
 # the URL to fetch the module from
-url: https://github.com/unsafe-risk/broccoli.git
+url: https://github.com/gfire-sigs/fire-controlplane.git
 # the description of the module
-description: Simple CLI Package for Go
+description: gfire control plane 
 ```
 
 then create a pull request.

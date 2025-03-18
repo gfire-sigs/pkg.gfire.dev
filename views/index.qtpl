@@ -1,4 +1,4 @@
-{% import "github.com/lemon-mint/gopkg.eu.org/types" %}
+{% import "github.com/gfire-sigs/pkg.gfire.dev/types" %}
 
 {% code
 type Module = types.Module
@@ -11,16 +11,16 @@ type Module = types.Module
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>gopkg.eu.org Module Index</title>
-    <meta name="og:title" content="gopkg.eu.org Module Index">
-    <meta name="og:description" content="A Module index for Go Modules hosted on gopkg.eu.org">
-    <meta name="description" content="A Module index for Go Modules hosted on gopkg.eu.org">
+    <title>pkg.gfire.dev Module Index</title>
+    <meta name="og:title" content="pkg.gfire.dev Module Index">
+    <meta name="og:description" content="A Module index for Go Modules hosted on pkg.gfire.dev">
+    <meta name="description" content="A Module index for Go Modules hosted on pkg.gfire.dev">
     <link rel="stylesheet" href="/_static/main.css">
 </head>
 <body>
-    <h1>gopkg.eu.org Module Index</h1>
-    <span class="description">A Module index for Go Modules hosted on gopkg.eu.org</span>
-    <span class="description">Index Repository: <a href="https://github.com/lemon-mint/gopkg.eu.org">https://github.com/lemon-mint/gopkg.eu.org</a></span>
+    <h1>pkg.gfire.dev Module Index</h1>
+    <span class="description">A Module index for Go Modules hosted on pkg.gfire.dev</span>
+    <span class="description">Index Repository: <a href="https://github.com/gfire-sigs/pkg.gfire.dev">https://github.com/gfire-sigs/pkg.gfire.dev</a></span>
     <br/>
     <div class="box">
         <ul>
